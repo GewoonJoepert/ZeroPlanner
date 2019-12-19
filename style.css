@@ -12,15 +12,17 @@ body {
 }
 
 .logo {
-
+  grid-area: logo;
 }
 
 .loginimg {
-
+  grid-area: loginimg;
 }
 
 .login {
-
+ grid-area: login;
 }
 
-.buttons
+.buttons {
+  grid-area: buttons;
+}
