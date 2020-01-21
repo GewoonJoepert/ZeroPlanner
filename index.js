@@ -1,7 +1,7 @@
+<script>
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar");
-
 var sticky = navbar.offsetTop;
 
 function myFunction() {
@@ -11,3 +11,4 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+</script>
